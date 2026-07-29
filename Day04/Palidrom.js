@@ -14,7 +14,7 @@
 // }
 // let x = -121
 // let res = Palindrom(x)
-// console.log(res);
+
 
 
 
