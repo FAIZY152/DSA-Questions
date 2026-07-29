@@ -26,7 +26,6 @@ function CheckAnagram(a,b) {
 }
 
 console.log(CheckAnagram("cat" , "tac"));
-
 console.log(CheckAnagram("ram" , "mar"));
 console.log(CheckAnagram("hell" , "hall"));
 
