@@ -2,19 +2,19 @@
 
 let arr = [1,2,3,4,5,6,7]
 
-// function ContainsDuplicate(arr) {
-//    for (let i = 0; i < arr.length; i++) {
-//         for (let j = i + 1; j < arr.length; j++) {
-//             if (arr[i] === arr[j]) {
-//                 return true;
-//             }
-//         }
-//    }
-//    return false;
-// }
+function ContainsDuplicate(arr) {
+   for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] === arr[j]) {
+                return true;
+            }
+        }
+   }
+   return false;
+}
 
-// console.log(ContainsDuplicate(arr)
-// );
+console.log(ContainsDuplicate(arr)
+);
 
 // Time complexity: O(n^2) 
 // space complexity: O(1)
@@ -25,20 +25,20 @@ let arr = [1,2,3,4,5,6,7]
 
 
 
-// function ContainsDuplicate(arr) {
-//    let sortedArr = arr.sort((a, b) => a - b);
-// console.log(sortedArr);
+function ContainsDuplicate(arr) {
+   let sortedArr = arr.sort((a, b) => a - b);
+console.log(sortedArr);
 
-    // for (let i = 0; i < sortedArr.length - 1; i++) {
-    //     if (sortedArr[i]=== sortedArr[i + 1]) {
-    //         return true;
-    //     }
-    // }
-    // return false;
+    for (let i = 0; i < sortedArr.length - 1; i++) {
+        if (sortedArr[i]=== sortedArr[i + 1]) {
+            return true;
+        }
+    }
+    return false;
 
-// }
+}
 
-// console.log(ContainsDuplicate(arr));
+console.log(ContainsDuplicate(arr));
 // Time complexity: O(n log n)
 // space complexity: O(1)
 

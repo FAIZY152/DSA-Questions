@@ -10,7 +10,7 @@ function CountDigt(nums) {
     }
 
 // another way to convert into positive
-nums = nums < 0 ? -nums:nums
+     nums = nums < 0 ? -nums :nums
     while (nums > 0) {
         //  nums % 10; -> thats only use to get last digit         
         nums = Math.floor(nums / 10)
