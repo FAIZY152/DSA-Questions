@@ -18,4 +18,17 @@ return x + 1
     
 }
 
-console.log(RemoveDuplicates([1,1,2,2,3,3,4,4,5]));
+
+function RemoveDuplicat(arr) {
+    let hash = new Set()
+
+    for (let i = 0; i < arr.length; i++) {
+        if (!hash.has(arr[i])) {
+            hash.add(arr[i])
+        }
+    }
+    return Array.from(hash)
+}
+
+
+console.log(RemoveDuplicat([1,1,2,2,3,3,4,4,5]));
