@@ -17,7 +17,7 @@ function MaxOnes(arr) {
                 currentCount = 0
             }        
     }
-    return maxCount
+    return [maxCount]
 }
 
 console.log(MaxOnes(arr));
