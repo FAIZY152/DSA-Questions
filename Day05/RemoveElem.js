@@ -16,4 +16,4 @@ return x
     
 }
 
-console.log(RemoveElem([1,1,2,2,3] , 3 ));
+console.log(RemoveElem([1,1,2,2,3, 5 , 10] , 10 ));

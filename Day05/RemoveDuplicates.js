@@ -31,4 +31,4 @@ function RemoveDuplicat(arr) {
 }
 
 
-console.log(RemoveDuplicat([1,1,2,2,3,3,4,4,5]));
+console.log(RemoveDuplicates([1,1,2,2,3,3,4,4,5]));
